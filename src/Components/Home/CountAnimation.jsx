@@ -4,24 +4,37 @@ import './CountAnimation.css';
 
 const CountingNumber = ({ value, duration = 2000 }) => {
   const [count, setCount] = useState(0);
+  const [hasAnimated, setHasAnimated] = useState(false);
+  const ref = React.useRef();
 
   useEffect(() => {
-    let start = 0;
-    const increment = value / (duration / 50);
-    const counter = setInterval(() => {
-      start += increment;
-      if (start >= value) {
-        clearInterval(counter);
-        setCount(value);
-      } else {
-        setCount(Math.ceil(start));
-      }
-    }, 50);
+    if (!ref.current) return;
+    const observer = new window.IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !hasAnimated) {
+          let start = 0;
+          const increment = value / (duration / 50);
+          const counter = setInterval(() => {
+            start += increment;
+            if (start >= value) {
+              clearInterval(counter);
+              setCount(value);
+              setHasAnimated(true);
+            } else {
+              setCount(Math.ceil(start));
+            }
+          }, 50);
+        }
+      },
+      { threshold: 0.2 }
+    );
+    observer.observe(ref.current);
+    return () => {
+      observer.disconnect();
+    };
+  }, [value, duration, hasAnimated]);
 
-    return () => clearInterval(counter);
-  }, [value, duration]);
-
-  return <>{count}</>;
+  return <span ref={ref}>{count}</span>;
 };
 
 export default function StatsSection() {
