@@ -136,28 +136,28 @@ export const Menus = [
         name: "Vision",
         desc: "To deliver innovative and reliable technology services that empower industries across the globe.",
         icon: Eye,
-        path: "/service",
+        path: "/who",
 
       },
       {
         name: "Mission",
         desc: "To provide high-quality, customer-centric IT solutions that drive business growth and operational excellence.",
         icon: ArrowUpRight,
-        path: "/service",
+        path: "/who",
 
       },
       {
         name: "Goal",
         desc: "To become a trusted global leader in delivering reliable and innovative technology services.",
         icon: Target,
-        path: "/service",
+        path: "/who",
 
       },
       {
         name: "Value",
         desc: "Integrity, customer-centricity, innovation, collaboration, and excellence.",
         icon: Award,
-        path: "/service",
+        path: "/who",
 
       },
 
