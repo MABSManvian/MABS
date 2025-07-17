@@ -52,7 +52,7 @@ export const Menus = [
       },
       {
         name: "Sustainability As A Service",
-        icon: Layers,
+        icon: Leaf,
         category: "Service",
         path: "/service/SaaS",
       },
