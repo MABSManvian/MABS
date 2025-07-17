@@ -179,42 +179,42 @@ const Footer = () => {
       </div>
 
       {/* Bottom Links */}
-      <div className="max-w-screen-xl mx-auto mt-10 border-b border-white pt-6 pb-4 grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-0 text-sm">
-        <div>
-          <h4 className="font-semibold mb-2">What We Do</h4>
-          <ul className="space-y-1">
-            <li ><Link to='/service/RAAS' >RaaS</Link></li>
-            <li><Link to='/service/Sales'>Sales</Link></li>
-            <li><Link to='/service/TechSolution'>Technology</Link></li>
-            <li><Link to='/service/DigitalMarketing'>Digital Marketing</Link></li>
-            <li><Link to='/service/multimedia'>MultiMedia</Link></li>
-            <li><Link to='/service/Business'>Business</Link></li>
-            <li><Link to='/service/SaaS'>SaaS</Link></li>
+      <div className="max-w-screen-xl mx-auto mt-10 border-b border-white pt-6 pb-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-sm">
+        <div className="flex flex-col items-start">
+          <h4 className="font-semibold mb-3 tracking-wide">What We Do</h4>
+          <ul className="space-y-2 w-full">
+            <li><Link to='/service/RAAS' className="hover:underline">RaaS</Link></li>
+            <li><Link to='/service/Sales' className="hover:underline">Sales</Link></li>
+            <li><Link to='/service/TechSolution' className="hover:underline">Technology</Link></li>
+            <li><Link to='/service/DigitalMarketing' className="hover:underline">Digital Marketing</Link></li>
+            <li><Link to='/service/multimedia' className="hover:underline">MultiMedia</Link></li>
+            <li><Link to='/service/Business' className="hover:underline">Business</Link></li>
+            <li><Link to='/service/SaaS' className="hover:underline">SaaS</Link></li>
           </ul>
         </div>
-        <div>
-          <h4 className="font-semibold mb-2">Who We Are</h4>
-          <ul className="space-y-1">
-            <li> <Link to="/who#mission">Our Mission </Link></li>
-            <li> <Link to="/who#vision"> Our Vision</Link></li>
-            <li> <Link to="/who#goal">Goal</Link></li>
-            <li> <Link to="/who#value">Value</Link></li>
+        <div className="flex flex-col items-start">
+          <h4 className="font-semibold mb-3 tracking-wide">Who We Are</h4>
+          <ul className="space-y-2 w-full">
+            <li><Link to="/who#mission" className="hover:underline">Our Mission</Link></li>
+            <li><Link to="/who#vision" className="hover:underline">Our Vision</Link></li>
+            <li><Link to="/who#goal" className="hover:underline">Goal</Link></li>
+            <li><Link to="/who#value" className="hover:underline">Value</Link></li>
           </ul>
         </div>
-        <div>
-          <h4 className="font-semibold mb-2 mt-4">Quick Links</h4>
-          <ul className="space-y-1">
-            <li> <Link to='/careers'> Career </Link></li>
-            <li><Link to='/insights'> Insights</Link></li>
-            <li><Link to='/product'>Product</Link></li>
-            <li><Link to='/contact'>Contact</Link></li>
+        <div className="flex flex-col items-start">
+          <h4 className="font-semibold mb-3 tracking-wide">Quick Links</h4>
+          <ul className="space-y-2 w-full">
+            <li><Link to='/careers' className="hover:underline">Career</Link></li>
+            <li><Link to='/insights' className="hover:underline">Insights</Link></li>
+            <li><Link to='/product' className="hover:underline">Product</Link></li>
+            <li><Link to='/contact' className="hover:underline">Contact</Link></li>
           </ul>
         </div>
-        <div>
-          <h4 className="font-semibold mb-2">Resources</h4>
-          <ul className="space-y-1">
-            <li>Blog</li>
-            <li>Newsletter</li>
+        <div className="flex flex-col items-start">
+          <h4 className="font-semibold mb-3 tracking-wide">Resources</h4>
+          <ul className="space-y-2 w-full">
+            <li className="hover:underline">Blog</li>
+            <li className="hover:underline">Newsletter</li>
           </ul>
         </div>
       </div>
