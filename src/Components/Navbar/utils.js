@@ -13,14 +13,14 @@ export const Menus = [
     subMenu: [
       // Service
       {
-        name: "Recruitment As a Service",
+        name: "Recruitment As A Service",
         
         icon: ShieldPlus,
         category: "Service",
         path: "/service/RAAS",
       },
       {
-        name: "Sales as a Service",
+        name: "Sales As A Service",
         
         icon: TrendingUp,
         category: "Service",
@@ -33,7 +33,7 @@ export const Menus = [
         path: "/service/multimedia",
       },
       {
-        name: "Technology solution",
+        name: "Technology Solution",
         icon: Cpu,
         category: "Service",
         path: "/service/TechSolution",
@@ -51,7 +51,7 @@ export const Menus = [
         path: "/service/Business",
       },
       {
-        name: "Sustainability-as-a-Service",
+        name: "Sustainability As A Service",
         icon: Layers,
         category: "Service",
         path: "/service/SaaS",
