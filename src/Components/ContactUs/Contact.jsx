@@ -292,7 +292,7 @@ const Contact = () => {
                     <a href="https://www.linkedin.com/company/manvian/" target="_blank" rel="noreferrer">
                         <img src={Linked} alt="LinkedIn" className="h-12 sm:h-16 md:h-20 w-auto cursor-pointer" />
                     </a>
-                    <a href="https://www.instagram.com/manvian_official?utm_source=ig_web_button_share_sheet&igsh=MW9xMXoxa3Nvejh5Mg==" target="_blank" rel="noreferrer">
+                    <a href="https://www.instagram.com/manviangroup?utm_source=ig_web_button_share_sheet&igsh=MW9xMXoxa3Nvejh5Mg==" target="_blank" rel="noreferrer">
                         <img src={Insta} alt="Instagram" className="h-12 sm:h-16 md:h-20 w-auto cursor-pointer" />
                     </a>
                     <a href="https://wa.me/qr/V7WXT6GFCNQVG1" target="_blank" rel="noreferrer">
