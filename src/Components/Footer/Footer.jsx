@@ -98,7 +98,7 @@ const Footer = () => {
               <a href="https://www.linkedin.com/company/manvian/" target="_blank" rel="noreferrer">
                 <img className="w-[50px] h-[50px]" src={Linked} alt="LinkedIn" />
               </a>
-              <a href="https://www.instagram.com/manvian_official?utm_source=ig_web_button_share_sheet&igsh=MW9xMXoxa3Nvejh5Mg==" target="_blank" rel="noreferrer">
+              <a href="https://www.instagram.com/manviangroup?utm_source=ig_web_button_share_sheet&igsh=MW9xMXoxa3Nvejh5Mg==" target="_blank" rel="noreferrer">
                 <img className="w-[50px] h-[50px]" src={Insta} alt="Instagram" />
               </a>
               <a href="https://wa.me/qr/V7WXT6GFCNQVG1" target="_blank" rel="noreferrer">
