@@ -1,10 +1,10 @@
 import React from "react";
 import news1 from "../../assets/News/News1.webp";
 import news2 from "../../assets/News/News2.jpeg";
-// import news3 from "../../assets/News/News3.jpeg";
-// import news4 from "../../assets/News/news4.jpg";
-// import news5 from "../../assets/News/news5.jpg";
-// import news6 from "../../assets/News/news6.jpg";
+import news3 from "../../assets/News/News3.jpeg";
+import news4 from "../../assets/News/News4.jpeg";
+ import news5 from "../../assets/News/News5.jpeg";
+ import news6 from "../../assets/News/News6.jpeg";
 
 const newsData = [
   {
@@ -15,7 +15,7 @@ const newsData = [
   },
   {
     id: 2,
-    image: "",
+    image: news3,
     description: "New frontiers in web development.",
     link: "#",
   },
@@ -27,19 +27,19 @@ const newsData = [
   },
   {
     id: 4,
-    image: "",
+    image: news4,
     description: "Tailwind CSS tips and tricks.",
     link: "#",
   },
   {
     id: 5,
-    image: "",
+    image: news5,
     description: "Node.js 2025 roadmap released.",
     link: "#",
   },
   {
     id: 6,
-    image: "",
+    image: news6,
     description: "Best practices in backend development.",
     link: "#",
   },
