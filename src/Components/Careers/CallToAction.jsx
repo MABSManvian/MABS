@@ -7,9 +7,11 @@ const CallToAction = () => {
   <p className="text-gray-700 mb-6">
     Discover how MABS can transform your operations with cutting-edge solutions tailored to your needs.
   </p>
-   <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px', marginTop: '20px' }}>
+  <Link to="/contact">
+  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px', marginTop: '20px' }}>
             <button className="ui-btn"><span>Contact Us</span></button>
          </div>
+</Link>
 </div>
 
   )
